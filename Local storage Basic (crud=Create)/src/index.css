@@ -1,0 +1,20 @@
+table{
+  border: 1px solid;
+
+}
+tbody{
+  border: 1px solid;
+}
+td{
+  border: 1px solid;
+}
+th{
+  border: 1px solid;
+}
+button{
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: 0px solid;
+  border-radius: 10px;
+}
