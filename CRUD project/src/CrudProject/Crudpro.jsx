@@ -46,9 +46,15 @@ export default function Crudpro() {
       setEditTask(id)
     }
 const editstatus=(id)=>{
-  const updatestatus= taskList.map((task)=> task.id == id ? {...task,status:"Complete"}:task)
-  setTaskList(updatestatus)
-  localStorage.setItem("task",JSON.stringify(updatestatus))
+   let updatstatus=taskList.map((item)=>{
+    if(item.id===id){
+      item.status="Complete"
+
+    }
+    return item;
+   })
+   setTaskList(updatstatus)
+   localStorage.setItem("task",JSON.stringify(updatstatus))
 }
 
 
