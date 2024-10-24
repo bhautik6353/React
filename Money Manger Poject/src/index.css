@@ -1,0 +1,210 @@
+.s1{
+    background-color: #edf2fe;
+    height: 160px;
+    width: 1000px;
+    margin-left: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 20px;
+}
+.s1 h1,p{
+    margin-left: 50px;
+}
+.s1 span{
+    color: #6aa0fb;
+    font-weight: bolder;
+}
+.s2{
+    background-color: #ebfcce;
+    height: 130px;
+    width: 200px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    margin-left: 300px;
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.s2 h2{
+    margin-left: 20px;
+    font-size: 20px;
+
+}
+.s3{
+    margin-top: -10px;
+}
+.s3 span{
+    color: green;
+}
+.add{
+    height: 100px;
+    width: 200px;
+    position: absolute;
+    margin-top: -115px;
+    margin-left: 520px;
+    background-color: #ebfcce;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.add input{
+    height: 25px;
+    width: 120px;
+    border-radius: 20px;
+    border: 0px solid;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.add input::placeholder{
+    padding: 5px;
+}
+.btn{
+
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: #baf270;
+    height: 30px;
+    width: 90px;
+    border-radius: 50px;
+    color: green;
+    border: 0px solid;
+    font-weight: bolder;
+}
+
+.addtransaction {
+    background-color: #edf2fe;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    height: 320px;
+    margin: 20px auto;
+    font-family: 'Arial', sans-serif;
+    margin-left: 300px;
+  }
+  
+  .addtransaction h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #343a40;
+  }
+  
+  .addtransaction label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #495057;
+  }
+  
+  .addtransaction input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+  }
+  
+  .addtransaction input:focus {
+    border-color: #80bdff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+  }
+  
+  .addtransaction .btn {
+    width: 40%;
+
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
+    height: 40px;
+    margin-left: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .addtransaction .btn:hover {
+    background-color: #0056b3;
+  }
+
+  .table {
+    width: 500px;
+    position: absolute;
+    top: 320px;
+    left: 800px;
+    height: 350px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #edf2fe;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .table h1 {
+    margin-left: 30px;
+    font-size: 27px;
+
+    color: #343a40;
+  }
+  
+  .tabledata {
+    height: 250px;
+
+    max-width: 400px;
+    margin: 20px auto;
+    margin-left: 30px;
+    border-collapse: collapse;
+    overflow: scroll;
+
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+  }
+  .tabledata::-webkit-scrollbar {
+    display: none; 
+  }
+  table{
+    width: 400px;
+  }
+  
+  .tabledata thead {
+    background-color: #007bff;
+    color: white;
+    font-size: 15px;
+  }
+  
+  .tabledata th {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 2px solid #dee2e6;
+  }
+  
+  .tabledata tbody tr {
+    border-bottom: 1px solid #dee2e6;
+    transition: background-color 0.3s ease;
+  }
+  
+  .tabledata tbody tr:nth-child(even) {
+    background-color: #f8f9fa;
+  }
+  
+  .tabledata tbody tr:hover {
+    background-color: #d6d8db;
+    cursor: pointer;
+  }
+  
+  .tabledata td {
+    padding: 15px;
+    font-size: 16px;
+    color: #495057;
+  }
+  
+  
+
+  
+  
+  
