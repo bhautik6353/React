@@ -1,0 +1,149 @@
+
+.auth-container {
+  width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+  text-align: center;
+  margin-top: 150px;
+}
+.auth-container h1{
+  color: #34A853;
+}
+span{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  color: #34A853;
+}
+hr{
+  height: 0px;
+  width: 125px;
+  margin:15px;
+}
+
+
+.auth-input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+.auth-button,
+.google-button {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+
+.auth-button {
+  background-color: #4CAF50;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.auth-button:hover {
+  background-color: #45a049;
+}
+
+
+.google-button {
+  background-color: #4285F4;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.google-button:hover {
+  background-color: #357ae8;
+}
+
+
+.auth-container br {
+  line-height: 1.5;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #34A853, #4285F4);
+  color: #fff;
+  height: 100%;
+}
+
+
+.welcome-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+
+.welcome-box {
+  background: #ffffff;
+  color: #333;
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+}
+
+
+.welcome-box h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #34A853;
+}
+
+.welcome-message {
+  font-size: 1.2em;
+  margin: 10px 0 20px;
+  color: #666;
+}
+
+#user-name {
+  font-weight: bold;
+  color: #4285F4;
+}
+
+
+.welcome-image {
+  width: 100px;
+  height: auto;
+  margin: 20px 0;
+}
+
+
+.logout-button {
+  background-color: #4285F4;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+
+.logout-button:hover {
+  background-color: #357ae8;
+  transform: scale(1.05);
+}
